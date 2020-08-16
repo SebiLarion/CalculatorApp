@@ -11,13 +11,15 @@ using System.Windows.Forms;
 namespace CalculatorApp2
 {
     public partial class FormHomepage : Form
+    {
         FormAbout formAbout;
         FormCalculator  formCalculator;
-    {
+    
         public FormHomepage()
         {
             InitializeComponent();
             formAbout = new FormAbout();
+            formCalculator = new FormCalculator();
             formAbout.Visible = false;
             formCalculator.Visible = false;
 
