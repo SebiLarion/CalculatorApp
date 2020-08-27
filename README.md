@@ -1,2 +1,2 @@
-Un calculator simplu, cu functiile de baza, facut in C#.
+Un calculator simplu, facut in C#.
 
