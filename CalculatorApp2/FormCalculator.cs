@@ -16,5 +16,43 @@ namespace CalculatorApp2
         {
             InitializeComponent();
         }
+
+        private void butonAdunare_Click(object sender, EventArgs e)
+        {
+            decimal termen1 = numericUpDownTermen1.Value;
+            decimal termen2 = numericUpDownTermen2.Value;
+
+            decimal rezultat = termen1 + termen2;
+            textBoxRezultat.Text = rezultat.ToString();
+
+        }
+
+        private void butonScadere_Click(object sender, EventArgs e)
+        {
+            decimal termen1 = numericUpDownTermen1.Value;
+            decimal termen2 = numericUpDownTermen2.Value;
+
+            decimal rezultat = termen1 - termen2;
+            textBoxRezultat.Text = rezultat.ToString();
+
+        }
+
+        private void butonInmultire_Click(object sender, EventArgs e)
+        {
+            decimal termen1 = numericUpDownTermen1.Value;
+            decimal termen2 = numericUpDownTermen2.Value;
+
+            decimal rezultat = termen1 * termen2;
+            textBoxRezultat.Text = rezultat.ToString();
+        }
+
+        private void butonImpartire_Click(object sender, EventArgs e)
+        {
+            decimal termen1 = numericUpDownTermen1.Value;
+            decimal termen2 = numericUpDownTermen2.Value;
+
+            decimal rezultat = termen1 / termen2;
+            textBoxRezultat.Text = rezultat.ToString();
+        }
     }
 }
